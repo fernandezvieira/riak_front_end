@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>BODY:</b>
+  <%= @message["body"] %>
+</p>
+
+<p>
+  <b>MSISDN:</b>
+  <%= @message["msisdn"] %>
+</p>
+
+<p>
+  <b>NODE:</b>
+  <%= @message["node"] %>
+</p>
+
+<%= link_to 'Back', messages_path %>
